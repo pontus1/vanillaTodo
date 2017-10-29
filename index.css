@@ -1,0 +1,72 @@
+body {
+    background-color: lightgrey !important;
+    padding: 20px;
+}
+
+#add-todo-form {
+    margin: 50px auto;
+}
+
+input {
+    height: 40px;
+    border: 2px solid grey;
+}
+
+button {
+    height: 40px;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list {
+    border: 2px solid black;
+    width: 48%;
+    padding: 20px;
+}
+
+#completed-todos li {
+    text-decoration: line-through;
+}
+
+.btn {
+    width: 100px;
+    border: 2px solid grey !important;
+    color: grey;
+    border-radius: 0 !important;
+}
+
+.btn:hover,
+.btn:focus {
+  font-size: 17px;
+  border-color: #000 !important;
+  transition: .2s ease-out;
+}
+
+#submit-btn {
+    margin-top: -2px;
+    margin-left: -4px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li div {
+    background-color: red;
+}
+
+li input {
+    flex: 1;
+}

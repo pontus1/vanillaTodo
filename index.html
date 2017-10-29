@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+
+        <form id="add-todo-form" class="" action="#">
+            <input id="todo-input" type="text" name="" placeholder="What to do?" />
+            <button type="submit" id="submit-btn" class="btn">
+                <span class="glyphicon glyphicon-plus"></span>
+            </button>
+        </form>
+
+        <div class="todo-container">
+            <div class="list">
+                <h4>What to do</h4>
+                <ul id="todos"></ul>
+            </div>
+
+            <div class="list">
+                <h4>What's done</h4>
+                <ul id="completed-todos"></ul>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="./js/node-factory.js"></script>
+        <script type="text/javascript" src="./js/callbacks.js"></script>
+        <script type="text/javascript" src="./js/index.js"></script>
+    </body>
+</html>
